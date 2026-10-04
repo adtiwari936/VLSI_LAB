@@ -112,7 +112,7 @@ Expected observations:
 
 ## 7.Screenshot: CMOS inverter schematic and DC voltage - transfer characteristics
 
-![](/CMOS_INVERTER_VTC/CMOS_INVERTER_VTC.png)
+![](/CMOS_INVERTER_VTC/Images/CMOS_INVERTER_VTC.png)
 
 > Figure : CMOS inverter schematic designed in LTspice and DC voltage-transfer characteristic of the CMOS inverter.
 

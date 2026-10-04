@@ -31,11 +31,17 @@ VLSI_LAB/
 ├── LICENSE
 ├── README.md
 └── CMOS_INVERTER_VTC/
-    ├── REPORT.md
-    ├── circuit.asc
-    ├── circuit.net
-    └── Images/
-        └── CMOS_INVERTER_VTC.png
+|    ├── circuit.asc
+|    ├── REPORT.md
+|    └── Images/
+|        └── CMOS_INVERTER_VTC.png
+└── CMOS_INVERTER_TRANSIENT/
+|    ├── circuit.net
+|    ├── circuit.asc
+|    ├── REPORT.md
+|    └── Images/
+|        └── simulation_ss.png
+
 
 ```
 

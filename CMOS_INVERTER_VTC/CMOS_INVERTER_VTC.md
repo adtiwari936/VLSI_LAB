@@ -22,11 +22,11 @@ IN = 1  →  OUT = 0
 
 ### Operation
 
-| Input condition | PMOS | NMOS | Output |
-|---|---|---|---|
-| `IN = 0 V` | ON | OFF | Approximately `VDD` |
-| `IN = VDD` | OFF | ON | Approximately `0 V` |
-| Intermediate input | ON | ON | Rapid transition |
+| Input condition    | PMOS | NMOS | Output              |
+| ------------------ | ---- | ---- | ------------------- |
+| `IN = 0 V`         | ON   | OFF  | Approximately `VDD` |
+| `IN = VDD`         | OFF  | ON   | Approximately `0 V` |
+| Intermediate input | ON   | ON   | Rapid transition    |
 
 The VTC is a graph of output voltage against input voltage:
 
@@ -39,13 +39,13 @@ The switching voltage is the point where the input and output voltages are appro
 ## 3. Circuit Connections
 
 | Component terminal | Connection |
-|---|---|
-| PMOS source | `VDD` |
-| PMOS drain | `OUT` |
-| PMOS gate | `IN` |
-| NMOS drain | `OUT` |
-| NMOS source | Ground |
-| NMOS gate | `IN` |
+| ------------------ | ---------- |
+| PMOS source        | `VDD`      |
+| PMOS drain         | `OUT`      |
+| PMOS gate          | `IN`       |
+| NMOS drain         | `OUT`      |
+| NMOS source        | Ground     |
+| NMOS gate          | `IN`       |
 
 Use:
 
@@ -110,37 +110,23 @@ Expected observations:
 - At an intermediate input voltage, the output changes rapidly.
 - At `VIN = 5 V`, `VOUT` is approximately 0 V.
 
-## 7. Screenshot
+## 7.Screenshot: CMOS inverter schematic and DC voltage - transfer characteristics
 
-Add the LTspice screenshots below this heading.
+![](/CMOS_INVERTER_VTC/CMOS_INVERTER_VTC.png)
 
-### Screenshot 1: CMOS inverter schematic
-
-_Insert or paste the screenshot here._
-
-Suggested caption:
-
-> Figure 1: CMOS inverter schematic designed in LTspice.
-
-### Screenshot 2: DC voltage-transfer characteristic
-
-_Insert or paste the VTC plot here._
-
-Suggested caption:
-
-> Figure 2: DC voltage-transfer characteristic of the CMOS inverter.
+> Figure : CMOS inverter schematic designed in LTspice and DC voltage-transfer characteristic of the CMOS inverter.
 
 ## 8. Observation Table
 
 | Input voltage | Output voltage |
-|---:|---:|
-| 0 V | ____ V |
-| 1 V | ____ V |
-| 2 V | ____ V |
-| 2.5 V | ____ V |
-| 3 V | ____ V |
-| 4 V | ____ V |
-| 5 V | ____ V |
+| ------------: | -------------: |
+|           0 V |     \_\_\_\_ V |
+|           1 V |     \_\_\_\_ V |
+|           2 V |     \_\_\_\_ V |
+|         2.5 V |     \_\_\_\_ V |
+|           3 V |     \_\_\_\_ V |
+|           4 V |     \_\_\_\_ V |
+|           5 V |     \_\_\_\_ V |
 
 ## 9. Result
 

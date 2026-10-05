@@ -32,11 +32,17 @@ $$
 V_{OUT}=\overline{V_{IN}}
 $$
 
+## Simulation Schematic
+
+![CMOS inverter power schematic](/CMOS_INVERTER_POWER/Images/schematic.png)
+
+_Figure 1: Circuit Schematic._
+
 ## Simulation Waveform
 
-![CMOS inverter power waveform](./Images/power_waveform.png)
+![CMOS inverter power waveform](/CMOS_INVERTER_POWER/Images/waveform.png)
 
-_Figure 1: Input voltage, inverter output voltage, instantaneous power, and supply current._
+_Figure 2: Input voltage, inverter output voltage, instantaneous power, and supply current._
 
 ## Simulation Parameters
 

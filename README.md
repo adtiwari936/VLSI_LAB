@@ -1,6 +1,6 @@
 # VLSI Lab
 
-This repository contains my VLSI laboratory experiments, simulations, reports, and supporting files.
+This repository contains my VLSI laboratory experiments, simulations, reports, and supporting files at VLSI Lab, Madan Mohan Malaviya University of Technology, Gorakhpur.
 
 ## Contents
 
@@ -30,25 +30,20 @@ VLSI_LAB/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+├── CMOS_INVERTER_TRANSIENT/
+│   ├── Images/
+│   ├── circuit.asc
+│   └── report.md
+├── CMOS_INVERTER_POWER/
+│   ├── Images/
+│   ├── circuit.asc
+│   ├── circuit.net
+│   └── Report.md
 └── CMOS_INVERTER_VTC/
-|    ├── circuit.asc
-|    ├── REPORT.md
-|    └── Images/
-|        └── CMOS_INVERTER_VTC.png
-└── CMOS_INVERTER_TRANSIENT/
-|    ├── circuit.net
-|    ├── circuit.asc
-|    ├── REPORT.md
-|    └── Images/
-|        └── simulation_ss.png
-└── CMOS_INVERTER_POWER/
-|    ├── circuit.net
-|    ├── circuit.asc
-|    ├── REPORT.md
-|    └── Images/
-|        └── simulation_ss.png
-
-
+    ├── Images/
+    ├── circuit.asc
+    ├── simulation.net
+    └── REPORT.md
 ```
 
 ## Experiment Format

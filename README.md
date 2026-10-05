@@ -41,6 +41,12 @@ VLSI_LAB/
 |    ├── REPORT.md
 |    └── Images/
 |        └── simulation_ss.png
+└── CMOS_INVERTER_POWER/
+|    ├── circuit.net
+|    ├── circuit.asc
+|    ├── REPORT.md
+|    └── Images/
+|        └── simulation_ss.png
 
 
 ```
